@@ -10,20 +10,36 @@ var loaded = true;
 //      1. Duration in seconds. DEFINIR O TEMPO
 //      2. Title to be used in menu. 
 //      3. Source URL. Can be full URI or a relative URL.
-slides[1] = new Array(30, "Metas Volda", "https://us-east-1.online.tableau.com/t/datagobr/views/Tagia-Metas/METAS-VOLDA?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:tabs=no&:toolbar=no#");
+// slides[1] = new Array(30, "Metas Volda", "https://us-east-1.online.tableau.com/t/datagobr/views/Tagia-Metas/METAS-VOLDA?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:tabs=no&:toolbar=no#");
+
+slides.push([0, "", ""]);
+
+// slides.push([60, "Metas", "https://us-east-1.online.tableau.com/t/datagobr/views/Tagia-Metas/FATURAMENTOMOBILE?:origin=card_share_link&:embed=y&:tabs=no&:toolbar=no#"]);
+
+slides.push([30, "Tagia - Orçamento Adm.", "https://us-east-1.online.tableau.com/t/datagobr/views/Tagia-Oramento/ORCADMINISTRATIVO?:origin=card_share_link&:embed=y&:tabs=no&:toolbar=no#"]);
+
+// slides.push([20, "FolhaSP", "https://us-east-1.online.tableau.com/t/datagobr/views/News/FolhaSP?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:tabs=no&:toolbar=no#"]);
+
+slides.push([30, "Tagia - Logística", "https://us-east-1.online.tableau.com/t/datagobr/views/Tagia-Oramento/ORCLOGISTICA?:origin=card_share_link&:embed=y&:tabs=no&:toolbar=no#"]);
+
+// slides.push([40, "Tecmundo Mercado", "https://us-east-1.online.tableau.com/t/datagobr/views/News/TecMundo-Mercado?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:tabs=no&:toolbar=no#"]);
+
+slides.push([30, "Tagia - Comercial", "https://us-east-1.online.tableau.com/t/datagobr/views/Tagia-Oramento/ORCCOMERCIAL?:origin=card_share_link&:embed=y&:tabs=no&:toolbar=no#"]);
+
+slides.push([40, "Tempo Local", "https://luanh-s.github.io/TimeandDate/"]);
+
+slides.push([30, "Tagia - Qualidade", "https://us-east-1.online.tableau.com/t/datagobr/views/Tagia-Oramento/ORCQUALIDADE?:origin=card_share_link&:embed=y&:tabs=no&:toolbar=no#"]);
+
+slides.push([60, "Cotação", "https://luanh-s.github.io/Currencies/"]);
+
+slides.push([30, "Tagia - Share", "https://us-east-1.online.tableau.com/t/datagobr/views/Tagia-Oramento/ORCSHARE?:origin=card_share_link&:embed=y&:tabs=no&:toolbar=no#"]);
+
+slides.push([30, "Tagia - Orç. Empresa", "https://us-east-1.online.tableau.com/t/datagobr/views/Tagia-Oramento/ORAMENTOEMPRESA?:origin=card_share_link&:embed=y&:tabs=no&:toolbar=no#"]);
 
 
-slides[2] = new Array(60, "Metas", "https://us-east-1.online.tableau.com/t/datagobr/views/Tagia-Metas/FATURAMENTOMOBILE?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:tabs=no&:toolbar=no#");
-
-slides[3] = new Array(60, "Cotação", "https://luanh-s.github.io/Currencies/");
 
 
-slides[4] = new Array(20, "FolhaSP", "https://us-east-1.online.tableau.com/t/datagobr/views/News/FolhaSP?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:tabs=no&:toolbar=no#");
 
-
-slides[5] = new Array(40, "Tecmundo Mercado", "https://us-east-1.online.tableau.com/t/datagobr/views/News/TecMundo-Mercado?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:tabs=no&:toolbar=no#");
-
-slides[6] = new Array(40, "Tempo Local", "https://luanh-s.github.io/TimeandDate/");
 
 
 function MenuInit() {
