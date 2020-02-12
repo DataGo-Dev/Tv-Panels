@@ -10,18 +10,20 @@ var loaded = true;
 //      1. Duration in seconds. DEFINIR O TEMPO
 //      2. Title to be used in menu. 
 //      3. Source URL. Can be full URI or a relative URL.
-slides[1] = new Array(30, "METAS VOLDA", "https://us-east-1.online.tableau.com/t/datagobr/views/Tagia-Metas/METAS-VOLDA?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:tabs=no&:toolbar=no#");
+slides[1] = new Array(30, "Metas Volda", "https://us-east-1.online.tableau.com/t/datagobr/views/Tagia-Metas/METAS-VOLDA?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:tabs=no&:toolbar=no#");
 
 
-slides[2] = new Array(60, "METAS", "https://us-east-1.online.tableau.com/t/datagobr/views/Tagia-Metas/FATURAMENTOMOBILE?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:tabs=no&:toolbar=no#");
+slides[2] = new Array(60, "Metas", "https://us-east-1.online.tableau.com/t/datagobr/views/Tagia-Metas/FATURAMENTOMOBILE?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:tabs=no&:toolbar=no#");
 
-slides[3] = new Array(60, "Cotacao", "https://us-east-1.online.tableau.com/t/datagobr/views/News/CotaoDlarEuro?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:tabs=no&:toolbar=no#");
+slides[3] = new Array(60, "Cotação", "https://luanh-s.github.io/Currencies/");
 
 
 slides[4] = new Array(20, "FolhaSP", "https://us-east-1.online.tableau.com/t/datagobr/views/News/FolhaSP?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:tabs=no&:toolbar=no#");
 
 
 slides[5] = new Array(40, "Tecmundo Mercado", "https://us-east-1.online.tableau.com/t/datagobr/views/News/TecMundo-Mercado?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:tabs=no&:toolbar=no#");
+
+slides[6] = new Array(40, "Tempo Local", "https://luanh-s.github.io/TimeandDate/");
 
 
 function MenuInit() {
