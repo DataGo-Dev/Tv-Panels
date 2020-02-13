@@ -26,11 +26,11 @@ slides.push([30, "Tagia - Logística", "https://us-east-1.online.tableau.com/t/d
 
 slides.push([30, "Tagia - Comercial", "https://us-east-1.online.tableau.com/t/datagobr/views/Tagia-Oramento/ORCCOMERCIAL?:origin=card_share_link&:embed=y&:tabs=no&:toolbar=no#"]);
 
-slides.push([40, "Tempo Local", "https://luanh-s.github.io/TimeandDate/"]);
+slides.push([40, "Tempo Local", "https://datago-dev.github.io/Time-Tv-Panel/"]);
 
 slides.push([30, "Tagia - Qualidade", "https://us-east-1.online.tableau.com/t/datagobr/views/Tagia-Oramento/ORCQUALIDADE?:origin=card_share_link&:embed=y&:tabs=no&:toolbar=no#"]);
 
-slides.push([60, "Cotação", "https://luanh-s.github.io/Currencies/"]);
+slides.push([60, "Cotação", "https://datago-dev.github.io/Currencies-Tv-Panel/"]);
 
 slides.push([30, "Tagia - Share", "https://us-east-1.online.tableau.com/t/datagobr/views/Tagia-Oramento/ORCSHARE?:origin=card_share_link&:embed=y&:tabs=no&:toolbar=no#"]);
 
